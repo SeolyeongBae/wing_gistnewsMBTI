@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		GistNews-MBTI
+	</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+	</style>
+	<meta charset="utf-8">
+
+</head>
+
+<body>
+	<header class="page-header">
+    <div class="question-gage-container">
+      <span class="question-gage-bar">
+      </span>
+    </div>
+  </header>
+      <div class="main-container main-inner">
+          <div class="main-container-inner">
+              <div class="step-main step-inner">
+                <div class="opac mbti">
+                  <img src="gistnews_logo.PNG" alt="gist_news" class="gist-mbti">
+                  <div id = "title-font">신문사 MBTI</div>
+                </div>
+                <div class="main-section-inner">
+                      <div class="question-container">
+                          <div class="rot pic">
+                              <img src="imagePictogram.png" alt="image" class="image">
+                          </div>
+                      </div>
+                      <div class="main-text-container">
+                          <div class="main-text">
+                              당신은
+                              <br>
+                              <span style="color: #ceaa8a;">
+                                <span class="bouncein">어</span>
+                                <span class="bouncein">떤</span>
+                                <span class="bouncein">보</span>
+                                <span class="bouncein">물</span>
+                              </span>인가요?
+                          </div>
+                      </div>
+                      <h5>보물로 알아보는 신문사 성향 테스트</h5>
+                      <div class="opac btn-container">
+                          <button class="btn-start", data-type = "reporter", onclick="pushSlides()">
+                              시작하기
+                          </button>
+                      </div>
+                      <div class="description-text-container">
+                          <div class="opac discription-text">
+                              야매로 제작해본 신문사 MBTI TEST,
+                              <br>
+                              Wing Project로 제작됐습니다.
+                          </div>
+                          <div class="opac link-container">
+                              <a href="http://gistnews.co.kr/?author=103" class="below-btn">
+                              Who
+                          </a>
+                          <a href="http://gistnews.co.kr/?author=104" class="below-btn">
+                              We
+                          </a>
+                          <a href="http://gistnews.co.kr/?author=106" class="below-btn">
+                              Are
+                          </a>
+                      </div>
+                      </div>    
+                  </div>
+              </div>
+            <div class = "slide-container">
+              <div class="step-question step-container">
+                    <div class="section-inner">
+                      <div class="question-container">
+                          <div class="rot pic">
+                              <img src="imagePictogram.png" alt="image" class="image">
+                          </div>
+                          <div class="question">
+                            음악을 들으며 일을 하자. <br> 당신의 선택은?
+                          </div>
+                      </div>
+                      <div class="answer-container">
+                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                            조용한 음악
+                        </button>
+                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                            시끄러운 음악
+                        </button>
+                        <button class="fill answer" ,data-type="editor" , onclick="pushSlides()">
+                            부드러운 음악
+                        </button>
+                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                            차라리 부른다
+                        </button>
+                      </div>
+                    </div>
+                  <div class="section-inner">
+                      <div class="question-container">
+                          <div class="rot pic">
+                              <img src="imagePictogram.png" alt="image" class="image">
+                          </div>
+                          <div class="question">
+                            잡생각이 너무 많다. <br>어떻게 생각을 정리할까?
+                          </div>
+                      </div>
+                      <div class="answer-container">
+                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                            산책한다
+                        </button>
+                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                            잠을 잔다
+                        </button>
+                        <button class="fill answer" ,data-type="editor" , onclick="pushSlides()">
+                            친구와 상담한다
+                        </button>
+                      </div>
+                  </div>
+                  <div class="section-inner">
+                      <div class="question-container">
+                          <div class="rot pic">
+                              <img src="imagePictogram.png" alt="image" class="image">
+                          </div>
+                          <div class="question">
+                            처음 다뤄보는 디자인 툴이다. <br>어떻게 하지?
+                          </div>
+                      </div>
+                      <div class="answer-container">
+                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                            구글링해서 사용법을 터득한다
+                        </button>
+                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                            잘 다룰 수 있는 사람에게 물어봐서 <br>사용법을 터득한다
+                        </button>
+                        <button class="fill answer" ,data-type="editor" , onclick="pushSlides()">
+                            혼자서 이것저것 눌러봐서 스스로 터득한다
+                        </button>
+                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                            응애~ 난 애기 기자
+                        </button>
+                  </div>
+                  </div>
+                  <div class="section-inner">
+                      <div class="question-container">
+                          <div class="rot pic">
+                              <img src="imagePictogram.png" alt="image" class="image">
+                          </div>
+                          <div class="question">
+                            화장실이 가고 싶다.<br> 인적 없는 새벽에 나홀로 화장실.<br> 어떻게 할까?
+                          </div>
+                      </div>
+                      <div class="answer-container">
+                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                            혼자 간다
+                        </button>
+                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                            친구와 함께 간다
+                        </button>
+                        <button class="fill answer" ,data-type="editor" , onclick="pushSlides()">
+                            뭐 죽기야 하겠어,,, 참는다
+                        </button>
+                      </div>
+                  </div>
+                  <div class="section-inner">
+                      <div class="question-container">
+                          <div class="rot pic">
+                              <img src="imagePictogram.png" alt="image" class="image">
+                          </div>
+                          <div class="question">
+                            10일 23시 59분시까지 <br> 과제를 업로드해야 한다
+                          </div>
+                      </div>
+                      <div class="answer-container">
+                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                            10일 23시 59분에 업로드한다. 세이프!
+                        </button>
+                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                            하루 전에 여유있게 올린다
+                        </button>
+                        <button class="fill answer" ,data-type="editor" , onclick="pushSlides()">
+                            헉,  11일이다. 그만 늦어버렸다 
+                        </button>
+                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                            나는 과제 그런거 모른다. 돔황챠~
+                        </button>
+                      </div>
+                  </div>
+                  <div class="section-inner">
+                      <div class="question-container">
+                          <div class="rot pic">
+                              <img src="imagePictogram.png" alt="image" class="image">
+                          </div>
+                          <div class="question">
+                            엠준위 위원인 당신. <br> 이번 엠티는 어디로 갈까?
+                          </div>
+                      </div>
+                      <div class="answer-container">
+                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                            산
+                        </button>
+                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                            바다
+                        </button>
+                        <button class="fill answer" ,data-type="editor" , onclick="pushSlides()">
+                            문사실ㅋㅋ
+                        </button>               
+                      </div>
+                  </div>
+                  <div class="section-inner">
+                      <div class="question-container">
+                          <div class="rot pic">
+                              <img src="imagePictogram.png" alt="image" class="image">
+                          </div>
+                          <div class="question">
+                            기획회의를 참석하지 못한 나, <br> 어떡할까?
+                          </div>
+                      </div>
+                      <div class="answer-container">
+                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                            신문사 부원들께 사과하고 <br> 회의 내용을 인계받는다
+                        </button>
+                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                            아몰랑 <br> 몰라몰라 돔황챠~
+                        </button>
+                        <button class="fill answer" ,data-type="editor" , onclick="pushSlides()">
+                            기획회의 쯤이야~ <br> 빠지라고 있는거 아임걍?ㄹㅇㅋㅋ
+                        </button>                     
+                      </div>
+                  </div>
+                  <div class="section-inner">
+                      <div class="question-container">
+                          <div class="rot pic">
+                              <img src="imagePictogram.png" alt="image" class="image">
+                          </div>
+                          <div class="question">
+                            인터뷰 기사를 써 봐야 할 텐데... <br> 누구를 인터뷰하면 좋을까?
+                          </div>
+                      </div>
+                      <div class="answer-container">
+                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                            담당 교수 
+                        </button>
+                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                            룸메이트
+                        </button>
+                        <button class="fill answer" ,data-type="editor" , onclick="pushSlides()">
+                            부모님
+                        </button>
+                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                            미래의 내 자식
+                        </button>                       
+                      </div>
+                  </div>
+                  <div class="section-inner">
+                      <div class="question-container">
+                          <div class="rot pic">
+                              <img src="imagePictogram.png" alt="image" class="image">
+                          </div>
+                          <div class="question">
+                            드디어 내일이 발행, <br> 현재 나의 상태는?
+                          </div>
+                      </div>
+                      <div class="answer-container">
+                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                            후련하다
+                        </button>
+                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                            잘못된 곳은 없을까? <br> 긴장된다
+                        </button>
+                        <button class="fill answer" ,data-type="editor" , onclick="pushSlides()">
+                            모르겠고 그냥 피곤하다
+                        </button>                     
+                      </div>
+                  </div>        
+                  <div class="section-inner">
+                      <div class="question-container">
+                          <div class="rot pic">
+                              <img src="imagePictogram.png" alt="image" class="image">
+                          </div>
+                          <div class="question">
+                            술을 먹자! 당신의 선택은?
+                          </div>
+                      </div>
+                      <div class="answer-container">
+                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                            소오~주우
+                        </button>
+                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                            매액~주우
+                        </button>
+                        <button class="fill answer" ,data-type="editor" , onclick="pushSlides()">
+                            나는 술찌야!^^
+                        </button>
+                      </div>                    
+                  </div>                            
+                  <div class="section-inner">
+                    <div class="main-text-container">
+                        <div class="pic">
+                        
+                    <svg height="126" viewBox="0 0 64 64" width="126" xmlns="http://www.w3.org/2000/svg">
+                    <g id="flat">
+                        <path d="m57 61h-50a4 4 0 0 1 -4-4v-54h42l12 12z" fill="#e5e4d1"/>
+                        <path d="m57 15h-12v-12z" fill="#c6c3a7"/>
+                        <path d="m47 5h10v10z" fill="#e5e4d1"/>
+                        <path d="m57 8h4a0 0 0 0 1 0 0v49a4 4 0 0 1 -4 4 0 0 0 0 1 0 0v-53a0 0 0 0 1 0 0z" fill="#d3d1b6"/>
+                    <g class="ivisiable opac" fill="#d75745">
+                    <path d="m13 14h-.307l-3-8h-3.693v10h2v-8h.307l3 8h3.693v-10h-2z"/>
+                    <path d="m32 14h-.323l-1.748-4.371a1 1 0 0 0 -1.858 0l-1.748 4.371h-.323v-8h-2v9a1 1 0 0 0 1 1h2a1 1 0 0 0 .929-.629l1.071-2.679 1.071 2.679a1 1 0 0 0 .929.629h2a1 1 0 0 0 1-1v-9h-2z"/>
+                    <path d="m17 16h5v-2h-3v-2h3v-2h-3v-2h3v-2h-5z"/>
+                    <path d="m42 8v-2h-5a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1h3v2h-4v2h5a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1h-3v-2z"/></g>
+            <g class="ivisiable opac">
+                <path d="m7 24h22v12h-22z" fill="#f9bb4b"/>
+                <path d="m33 24h20v4h-20z" fill="#f9bb4b"/>
+                <path d="m33 32h20v4h-20z" fill="#f9bb4b"/>
+                <path d="m39 40h14v8h-14z" fill="#f9bb4b" transform="matrix(-1 0 0 -1 92 88)"/>
+            </g>
+            <g class="ivisiable opac">
+                <path d="m7 52h46v4h-46z" fill="#2d75bb" transform="matrix(-1 0 0 -1 60 108)"/>
+                <path d="m6 18h48v2h-48z" fill="#2d75bb"/>
+                </g>
+            <g class="ivisiable opac">
+                <path d="m6 43h14v2h-14z" fill="#394d5c"/>
+                <path d="m6 39h24v2h-24z" fill="#394d5c"/>
+                <path d="m6 47h22v2h-22z" fill="#394d5c"/>
+                <path d="m32 39h4v2h-4z" fill="#394d5c"/>
+                <path d="m22 43h14v2h-14z" fill="#394d5c"/>
+                <path d="m30 47h6v2h-6z" fill="#394d5c"/>
+        
+                </g>
+            </g>
+                            </svg>
+                        </div>
+                      <div class="main-text">
+                        과연 당신은
+                        <br>
+                        <span style="color: #ceaa8a;">어떤 보물</span>일까요?
+                      </div>
+                      <br>
+                      <br>
+                    </div>
+                    <button class="btn-start">
+                        결과 보기
+                    </button>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <script src="script.js"></script>
+  </body>
+</html>
