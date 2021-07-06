@@ -1,0 +1,332 @@
+@media (min-width: 768px) {
+    header {
+        top: 50px;
+    }
+}
+body{
+    background-color: #444444;
+}
+
+a {
+    color: #444444;
+    text-align: center;
+  
+
+}
+
+.btn-last{
+    width: 300px;
+    color: white;
+    border: 1px solid #ceaa8a;
+    background-color: #ceaa8a;
+    border-radius: 10px;
+    line-height: 70px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    height: 66px;
+    font-family: 'Single Day', cursive;
+    animation: fadein 5s forwards;
+}
+
+
+.gist-mbti {
+    width: 80px;
+    image-rendering: auto;
+
+}
+
+.question{
+    text-align: center;
+    font-size: 22px;
+    line-height: 34px;
+    color: white;
+    padding: 20px 0;
+    font-family: 'Single Day', cursive;
+}
+.pic{
+    text-align: center;
+}
+.step-main step-inner{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    padding: 100px 20px 18px;
+    box-sizing: border-box;
+}
+
+.mbti{
+  position: absolute;
+  top: 3%;
+  left: 40%;
+
+}
+
+#title-font{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Single Day", cursive;
+  color: white;
+
+
+}
+
+
+.main-section-inner{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    padding: 100px 20px 18px;
+    box-sizing: border-box;
+
+}
+
+.section-inner {
+    display: none;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    padding: 100px 20px 18px;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    max-width: 360px;
+    margin: 0 auto;
+    min-height: 600px;
+    /*    overflow: hidden; */
+    height: 100vh;
+
+}
+
+.main-container-inner {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+
+}
+
+.step-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex: 0 0 360px;
+
+}
+
+.answer-container {
+    width: 100%;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.answer {
+    width: 300px;
+    display: block;
+    color: #ceaa8a;
+    border: 1px solid #ceaa8a;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    height: 66px;
+    font-family: 'Single Day', cursive;
+}
+
+a, button {
+    cursor: pointer;
+    background-color: transparent;
+
+}
+.image{
+    width: 41px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.btn-start{
+    width: 300px;
+    display: block;
+    color: white;
+    border: 1px solid #ceaa8a;
+    background-color: #ceaa8a;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    height: 66px;
+    font-family: 'Single Day', cursive;
+}
+.main-text{
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Single Day', cursive;
+
+}
+h5{
+    margin-top: 0;
+    padding-bottom: 30px;
+    color: #7e7e7e;
+    font-family: 'Single Day', cursive;
+    text-align: center;
+    font-weight: 200;
+}
+.discription-text{
+    text-align: center;
+    color: #a8a8a8;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Single Day', cursive;
+    padding-top: 30px;
+}
+.below-btn{
+    font-size: 15px;
+    font-weight: 200;
+    color: #c1c1c1;
+    font-family: 'Single Day', cursive;
+
+}
+.link-container{
+    text-align: center;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bouncein {
+  position: relative;
+  top: 0px;
+  display: inline-block;
+  animation: bounce .2s ease 2 alternate;
+  text-shadow: 0 1px 0 #000,
+               0 2px 0 #000,
+               0 3px 0 transparent,
+               0 4px 0 transparent,
+               0 5px 10px rgba(0, 0, 0, .4); 
+
+}
+
+.bouncein:nth-child(2) { animation-delay: .5s; }
+.bouncein:nth-child(3) { animation-delay: 1s; }
+.bouncein:nth-child(4) { animation-delay: 1.5s; }
+.bouncein:nth-child(5) { animation-delay: 2s; }
+.bouncein:nth-child(6) { animation-delay: 2.5s; }
+.bouncein:nth-child(7) { animation-delay: 3s; }
+.bouncein:nth-child(8) { animation-delay: 3.5s; }
+
+@keyframes bounce {
+    75% {
+  transform: rotate( 7deg );
+    }
+    80%{
+         transform: rotate( -7deg );
+    }
+  100% {
+    top: -20px;
+    text-shadow:0 1px 0 #000,
+               0 2px 0 #000,
+               0 3px 0 transparent,
+               0 4px 0 transparent,
+               0 5px 10px rgba(0, 0, 0, .2); 
+  }
+}
+
+.fill::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.fill:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.fill::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+    border: solid;
+    border-radius: 10px;
+  inset: 0 0 0 0;
+  background: hsl(42,63%,97%);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+.fill {
+  position: relative;
+
+}
+
+@keyframes opacappear {
+    0% { transform: translate(0px, 10px); 
+        opacity:0;}
+
+    100% {transform: translate(0px, 0px); 
+        opacity:1;}
+
+}
+
+.opac {
+    animation:opacappear 1s 1;
+    animation-fill-mode: forwards;
+    }
+
+.opac:nth-child(2) { animation-delay: 3s; }
+.opac:nth-child(5) { animation-delay: .5s; }
+.opac:nth-child(6) { animation-delay: 1s; }
+.opac:nth-child(7) { animation-delay: 1.5s; }
+.opac:nth-child(8) { animation-delay: 1.7s; }
+
+
+.ivisiable{
+        opacity:0;
+    }
+    
+    
+
+@keyframes rotateicon {
+    15% {
+        transform: rotate( 15deg );
+        transform: translate(0px, -10px);
+    }
+    35%{
+         transform: rotate( -15deg );
+    }
+    50%{
+         transform: rotate( -10deg );
+    }
+    100% {
+    transform: translate(0px, 0px);
+    }
+
+}
+.rot {animation:rotateicon 1s infinite;}
