@@ -1,0 +1,2 @@
+# GISTNEWS-MBTI
+#하이요
